@@ -3,7 +3,7 @@ terraform {
     bucket         = "mys3-sravs-bucket-12345"
     region         = "us-east-1"
     key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "MySampleTable"
     encrypt        = true
   }
   required_version = ">= 1.9.3"
